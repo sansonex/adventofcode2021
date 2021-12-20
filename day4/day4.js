@@ -26,7 +26,6 @@ for (let index = 1; index < content.split('\n\n').length; index++) {
 
 runGame();
 
-
 function getMarks(board, number) {
   const rows = chunkArrayInGroups(board.numbers.split(' '), 5);
 
